@@ -1,21 +1,7 @@
 package com.july.leetcode.ten;
 
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
+import com.july.leetcode.common.ListNode;
 
 public class Nineteen {
     public static void main(String[] args) {
